@@ -1,0 +1,203 @@
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background: crimson;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+}
+*{
+    text-decoration: none;
+
+
+}
+
+.navbar{
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: yellow;
+    height: 60px;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+
+
+
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    flex: 1;
+    position: relative;
+    width: 300;
+    height: 20px;
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 40px;
+    font-weight: 800;
+    color: yellow;
+
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 25px;
+
+}
+li a:hover{
+    transition: .4s;
+    color: red
+}
+
+button{
+
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 7px 15px ;
+    border-radius: 40px;
+    transition: .4s;    
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+button a:hover{
+    background: transparent;
+    border: 2ps solid #f9004d;
+    cursor: pointer;
+}
+
+
+img {width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+    
+}
+
+
+body{
+    width: 100%;
+    
+    background-color: #191919;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    color: crimson;
+    font-family: Calibri;
+    text-align: center;
+    line-height: 5px;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1{
+    color: yellow;
+    font-size: 40px;
+    font-family: calibri;
+    letter-spacing: 2px;
+    font-weight: 900px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2px;
+}
+span{
+    color: #f9004d;
+}
+
+p{    
+    color: white;
+    font-size: 30px;
+    line-height: 1.7;
+    font-weight: 50px;
+    font-family: Bold;
+}
+h3{
+    color: yellow;
+    font-family: calibri;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.btn{
+    margin-left: 320px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+    margin-left: 35px;
+
+}
+
+.btn a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: bold;
+    font-style: italic;
+}
+
+.btn button:hover{
+    transition: .4s;
+    color: red;
+}
+
+.share{
+    position: absolute;
+    bottom: 3rem;
+    left: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.share b{
+    font-size: 18px;
+    font-weight: 900px;
+    color: black;
+    margin-right: 30px;
+}
